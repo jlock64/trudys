@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+	    <title>Class Schedule | Yogi</title>
+
+		<link rel='stylesheet' href='css/main.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='css/shop.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='css/font-awesome.min.css' type='text/css' media='all'/>
+		<link rel='stylesheet' href='css/fullcalendar.css' type='text/css' media='all'/>
+
+		<!-- Google fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:100,300,400,500,600,700,900,100italic,300italic,400italic,500italic,600italic,700italic,900italic' type='text/css' media='all'/>
+
+		<link id="style-main-color" rel="stylesheet" href="css/colors/default.css">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+	</head>
+	<body>
+		<div class="site">
+			<!-- Start Header -->
+			<header class="noo-header">
+				<div class="navbar-wrapper">
+					<div class="navbar navbar-default  fixed-top shrinkable" role="navigation">
+						<div class="container-boxed max">
+							<div class="navbar-header">
+								<h1 class="sr-only">Yogi</h1>
+								<a class="navbar-toggle collapsed" data-toggle="collapse" data-target=".noo-navbar-collapse">
+									<span class="sr-only">Navigation</span>
+									<i class="fa fa-bars"></i>
+								</a>
+								<a class="navbar-toggle member-navbar-toggle collapsed" data-toggle="collapse" data-target=".noo-user-navbar-collapse"><i class="fa fa-user"></i></a>
+								<a href="index.html" class="navbar-brand" title="Yoga Health Theme">
+									<img class="noo-logo-img noo-logo-normal" src="images/logo.png" alt="Yoga Health Theme">
+									<img class="noo-logo-retina-img noo-logo-normal" src="images/logo-retina.png" alt="Yoga Health Theme">
+								</a>
+							</div>  
+							<nav class="collapse navbar-collapse noo-user-navbar-collapse" role="navigation">
+								<ul class="navbar-nav sf-menu">
+									<li class="fly-right">
+										<a href="cart.html" class="member-cart-link">My Cart</a>
+									</li>
+									<li class="fly-right">
+										<a href="login.html" class="member-login-link">Login</a>
+									</li>
+									<li class="menu-item fly-right">
+										<a href="register.html" class="member-register-link">Register</a>							
+									</li>
+								</ul>
+							</nav>
+							<nav>
+								<ul class="navbar-nav sf-menu member-links header-right">
+									<li class="member-info">
+										<a href="#">
+											<span class="user-name"><i class="fa fa-user"></i></span>		
+										</a>
+										<ul class="sub-menu">
+											<li>
+												<a href="login.html" class="member-login-link">
+													<i class="fa fa-sign-in"></i> Login
+												</a>											
+											</li>
+											<li>
+												<a href="register.html" class="member-register-link"><i class="fa fa-key"></i> Register</a>
+											</li>
+										</ul>
+									</li>
+									<li class="noo-menu-item-cart minicart">
+										<a title="View cart" class="cart-button" href="#">
+											<span class="cart-item"><i class="fa fa-shopping-cart"></i></span>				
+										</a>
+								  		<div class="noo-minicart">
+											<div class="minicart-header">Your shopping bag is empty.</div>
+											<div class="minicart-footer">
+												<div class="minicart-actions clearfix">
+													<a class="button pull-left btn-primary" href="#">
+														<span class="text">Go to the shop</span>				
+													</a>
+												</div>
+											</div>
+										</div>
+								  	</li>
+							  	</ul>
+							</nav>
+							<nav class="collapse navbar-collapse noo-navbar-collapse">
+								<ul class="navbar-nav sf-menu">
+									<li>
+										<a href="index.html">Home</a>
+										<ul class="sub-menu">
+											<li><a href="index2.html">Home classic</a></li>
+										</ul>
+									</li>
+									<li class="current-menu-item">
+										<a href="class-list.html">Classes</a>
+										<ul class="sub-menu">
+											<li class="current-menu-item"><a href="class-schedule.html">Class Schedule</a></li>
+											<li><a href="class-list.html">Classes Listing</a></li>
+											<li><a href="class-grid.html">Classes Grid</a></li>
+											<li><a href="class-detail.html">Single Class</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="trainer-list.html">Trainer</a>
+										<ul class="sub-menu">
+											<li><a href="trainer-list.html">Trainer List</a></li>
+											<li><a href="trainer-detail.html">Trainer Profile</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="event-list.html">Events</a>
+										<ul class="sub-menu">
+											<li><a href="event-list.html">Events Listing</a></li>
+											<li><a href="event-detail.html">Single Event</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Pages</a>
+										<ul class="sub-menu">
+											<li><a href="about-us.html">About us</a></li>
+											<li><a href="contact.html">Contact</a></li>
+											<li><a href="membership.html">Membership</a></li>
+											<li><a href="login.html">Login</a></li>
+											<li><a href="register.html">Register</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="blog.html">Blog</a>
+									</li>
+									<li>
+										<a href="shop.html">Shop</a>
+										<ul class="sub-menu">
+											<li><a href="shop-masonry.html">Shop Masonry</a></li>
+											<li><a href="shop-category.html">Product Category</a></li>
+											<li><a href="shop-detail.html">Single Product</a></li>
+											<li><a href="cart.html">Cart</a></li>
+										</ul>
+									</li>
+								</ul>
+							</nav>  
+						</div>  
+					</div>  
+			  	</div>
+			</header>
+			<!-- End Header -->
+
+			<header class="noo-page-heading heading-bg-image">
+				<div class="container-boxed max">
+					<div class="page-heading-info ">
+						<h1 class="page-title"><span class="nth-word-first">Class</span> Schedule</h1>
+				  	</div>
+					<div class="noo-page-breadcrumb">	
+						<div class="breadcrumb-wrap">
+							<ul class="breadcrumb">
+								<li><a href="#">Home</a></li>
+								<li class="active"><span>Class Schedule</span></li>
+							</ul>
+						</div>
+					</div>
+				</div><!-- /.container-boxed -->
+		  	</header>
+			<div class="main-content container-fullwidth">
+				<div class="row">
+					<div class="noo-main col-md-12" role="main">
+						<!-- Begin The loop -->
+						<div  class="row noo-class-schedule">
+							<div  class="col-md-12">
+								<div class="container-boxed max">
+									<div class="row" style="padding-top: 20px; padding-bottom: 20px;">
+										<div class="col-md-12">
+											<div class="class-schedule-filter">
+												<ul>
+													<li><a href="#" class="active" data-filter="*">All</a></li>
+													<li><a href="#" data-filter="fc-class-22">Flow</a></li>
+													<li><a href="#" data-filter="fc-class-23">Hatha</a></li>
+													<li><a href="#" data-filter="fc-class-25">Kundalini</a></li>
+													<li><a href="#" data-filter="fc-class-24">Vinyasa</a></li>
+													<li><a href="#" data-filter="fc-class-26">Yoga Dance</a></li>
+												</ul>
+											</div>
+											<div id="noo-class-schedule" class="class-schedule"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End The loop -->
+					</div> <!-- /.main -->
+				</div>
+			  <!--/.row-->
+			</div><!--/.container-full-->
+	
+			<div class="colophon wigetized">
+				<div class="container-boxed max">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<div class="widget widget_text">
+								<h4 class="widget-title">Address</h4>
+								<div class="textwidget">
+									<div class="address">
+										<ul>
+											<li><i class="fa fa-map-marker"></i> 1900 Pico Blvd Santa Monica CA 90405 United States </li>
+											<li><i class="fa fa-phone"></i> +48 123 456 789 </li>
+											<li><i class="fa fa-envelope"></i> <a href="#">info@test.com</a></li>
+											<li><i class="fa fa-skype"></i> your.company</li>
+										</ul>
+									</div>
+									<div class="noo-social">
+										<a title="Facebook" href="#">
+											<i class="fa fa-facebook facebook-bg-hover facebook-outlined"></i>
+										</a>
+										<a title="Twitter" href="#">
+											<i class="fa fa-twitter twitter-bg-hover twitter-outlined"></i>
+										</a>
+										<a title="Google+" href="#">
+											<i class="fa fa-google-plus google-plus-bg-hover google-plus-outlined"></i>
+										</a>
+										<a title="Pinterest" href="#">
+											<i class="fa fa-pinterest pinterest-bg-hover pinterest-outlined"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="widget tweets-widget">
+								<h4 class="widget-title">
+									<span class="nth-word-first">Recent</span> Tweets
+								</h4>
+								<div class="recent-tweets">
+									<ul>
+										<li>
+											<span class="twitter_username">@envato</span>
+											<span>Creative Event PSD Template is now on top and ready for multipurpose sites. Outstanding solution for selling... 
+												<a href="#" title="" target="_blank">http://t.co/X1GPQjAfRv</a>
+											</span>
+										</li>
+										<li>
+											<span class="twitter_username">@envato</span>
+											<span>[ANNOUNCEMENT] We will be off for national Reunification Day from April 30th to May 3rd and will be back on... 
+												<a href="#" title="" target="_blank">http://t.co/2vNEK3qEgw</a>
+											</span>
+										</li>
+										<li>
+											<span class="twitter_username">@envato</span>
+											<span>Good news for Monday! We have 2 PSD templates among popular items on Themeforest last week. Haven't introduce to... 
+												<a href="#" title="" target="_blank">http://t.co/vfbETqDfc7</a>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="widget widget_nav_menu">
+								<h4 class="widget-title">Quicklink</h4>
+								<div class="menu-quicklink-container">
+									<ul class="menu">
+										<li><a href="#">My Account</a></li>
+										<li><a href="#">View Order</a></li>
+										<li><a href="#">Privacy and Security</a></li>
+										<li><a href="#">Promotions</a></li>
+										<li><a href="#">About Us</a></li>
+										<li><a href="#">Contact Us</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="widget widget_text">
+								<h4 class="widget-title">
+									<span class="nth-word-first">Contact</span> Form
+								</h4>
+								<div class="textwidget">
+									<form>
+										<p>
+											<input type="text" name="name" value="" size="40" class="form-control" placeholder="Name"/>
+										</p>
+										<p>
+											<input type="text" name="email" value="" size="40" class="form-control" placeholder="Email"/>
+										</p>
+										<p>
+											<textarea name="message" cols="40" rows="10" class="form-control textarea" placeholder="Message"></textarea>
+										</p>
+										<input type="submit" value="Send" class="form-control form-submit"/>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>  
+				</div>  
+			</div>
+			
+	    	<!-- Start Footer -->
+			<footer class="colophon site-info">
+				<div class="container-full">
+					<div class="footer-more">
+						<div class="container-boxed">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="noo-bottom-bar-content">Copyright © 2015. Yogi All rights reserved</div>
+								</div>
+						  	</div>
+						</div>
+					</div>
+				</div>  
+			</footer>
+			<!-- End Footer -->
+		
+		</div>
+		<!-- End Site Wrapper -->
+
+		<a href="#" class="go-to-top"><i class="fa fa-angle-up"></i></a>
+		
+		<script type='text/javascript' src='js/libs/jquery.js'></script>
+		<script type="text/javascript" src='js/libs/jquery.cookie.js'></script>
+		<script type='text/javascript' src='js/libs/jquery-migrate.min.js'></script>
+		<script type='text/javascript' src='js/libs/modernizr-2.7.1.min.js'></script>
+		<script type='text/javascript' src='js/libs/jquery.touchSwipe.js'></script>
+		<script type='text/javascript' src='js/libs/bootstrap.min.js'></script>
+		<script type='text/javascript' src='js/libs/hoverIntent-r7.min.js'></script>
+		<script type='text/javascript' src='js/libs/superfish-1.7.4.min.js'></script>
+		<script type='text/javascript' src='js/libs/imagesloaded.pkgd.min.js'></script>
+		<script type='text/javascript' src='js/libs/isotope-2.0.0.min.js'></script>
+        <script type='text/javascript' src='js/libs/moment.min.js'></script>
+		<script type='text/javascript' src='js/libs/fullcalendar.custom.js'></script>
+		<script type='text/javascript' src='js/main.js'></script>
+		<script>
+			jQuery(document).ready(function($) {
+				var source = 
+					[
+						{"title":"Vinyasa Class","color":"#e2fcf6","url":"#","address":"Room 101, Building A","className":"fc-class-24","trainer":"Jane Garner","start":"2015-07-05T04:00:00","end":"2015-07-05T06:00:00"},
+						{"title":"Vinyasa Class","color":"#e2fcf6","url":"#","address":"Room 101, Building A","className":"fc-class-24","trainer":"Jane Garner","start":"2015-07-12T13:00:00","end":"2015-07-12T15:00:00"},
+						{"id":282,"title":"Vinyasa Class","color":"#e2fcf6","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/vinyasa-class-with-jane\/","address":"Room 101, Building A","className":"fc-class-24","trainer":"Jane Garner","start":"2015-07-19T13:00:00","end":"2015-07-19T15:00:00"},
+						{"id":282,"title":"Vinyasa Class","color":"#e2fcf6","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/vinyasa-class-with-jane\/","address":"Room 101, Building A","className":"fc-class-24","trainer":"Jane Garner","start":"2015-07-26T13:00:00","end":"2015-07-26T15:00:00"},
+						{"id":282,"title":"Vinyasa Class","color":"#e2fcf6","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/vinyasa-class-with-jane\/","address":"Room 101, Building A","className":"fc-class-24","trainer":"Jane Garner","start":"2015-07-02T13:00:00","end":"2015-07-02T15:00:00"},
+						{"id":282,"title":"Vinyasa Class","color":"#e2fcf6","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/vinyasa-class-with-jane\/","address":"Room 101, Building A","className":"fc-class-24","trainer":"Jane Garner","start":"2015-07-09T13:00:00","end":"2015-07-09T15:00:00"},
+						{"id":282,"title":"Vinyasa Class","color":"#e2fcf6","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/vinyasa-class-with-jane\/","address":"Room 101, Building A","className":"fc-class-24","trainer":"Jane Garner","start":"2015-07-16T13:00:00","end":"2015-07-16T15:00:00"},
+						{"id":282,"title":"Vinyasa Class","color":"#e2fcf6","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/vinyasa-class-with-jane\/","address":"Room 101, Building A","className":"fc-class-24","trainer":"Jane Garner","start":"2015-07-23T13:00:00","end":"2015-07-23T15:00:00"},
+						{"id":290,"title":"Basic Kundalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/basic-kundalini\/","address":"Room 203, Building A","className":"fc-class-25","trainer":"Jenifer Mueller","start":"2015-07-10T18:00:00","end":"2015-07-10T20:00:00"},
+						{"id":290,"title":"Basic Kundalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/basic-kundalini\/","address":"Room 203, Building A","className":"fc-class-25","trainer":"Jenifer Mueller","start":"2015-07-17T18:00:00","end":"2015-07-17T20:00:00"},
+						{"id":290,"title":"Basic Kundalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/basic-kundalini\/","address":"Room 203, Building A","className":"fc-class-25","trainer":"Jenifer Mueller","start":"2015-07-24T18:00:00","end":"2015-07-24T20:00:00"},
+						{"id":290,"title":"Basic Kundalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/basic-kundalini\/","address":"Room 203, Building A","className":"fc-class-25","trainer":"Jenifer Mueller","start":"2015-07-31T18:00:00","end":"2015-07-31T20:00:00"},
+						{"id":290,"title":"Basic Kundalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/basic-kundalini\/","address":"Room 203, Building A","className":"fc-class-25","trainer":"Jenifer Mueller","start":"2015-07-07T18:00:00","end":"2015-07-07T20:00:00"},
+						{"id":290,"title":"Basic Kundalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/basic-kundalini\/","address":"Room 203, Building A","className":"fc-class-25","trainer":"Jenifer Mueller","start":"2015-07-14T18:00:00","end":"2015-07-14T20:00:00"},
+						{"id":290,"title":"Basic Kundalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/basic-kundalini\/","address":"Room 203, Building A","className":"fc-class-25","trainer":"Jenifer Mueller","start":"2015-07-21T18:00:00","end":"2015-07-21T20:00:00"},
+						{"id":290,"title":"Basic Kundalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/basic-kundalini\/","address":"Room 203, Building A","className":"fc-class-25","trainer":"Jenifer Mueller","start":"2015-07-28T18:00:00","end":"2015-07-28T20:00:00"},
+						{"id":285,"title":"Weekend Hatha","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/weekend-hatha-class\/","address":"Room 102, Building A","className":"fc-class-23","trainer":"Jane Doe","start":"2015-07-17T14:00:00","end":"2015-07-17T16:00:00"},
+						{"id":285,"title":"Weekend Hatha","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/weekend-hatha-class\/","address":"Room 102, Building A","className":"fc-class-23","trainer":"Jane Doe","start":"2015-07-24T14:00:00","end":"2015-07-24T16:00:00"},
+						{"id":285,"title":"Weekend Hatha","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/weekend-hatha-class\/","address":"Room 102, Building A","className":"fc-class-23","trainer":"Jane Doe","start":"2015-07-31T14:00:00","end":"2015-07-31T16:00:00"},
+						{"id":285,"title":"Weekend Hatha","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/weekend-hatha-class\/","address":"Room 102, Building A","className":"fc-class-23","trainer":"Jane Doe","start":"2015-06-07T14:00:00","end":"2015-06-07T16:00:00"},
+						{"id":285,"title":"Weekend Hatha","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/weekend-hatha-class\/","address":"Room 102, Building A","className":"fc-class-23","trainer":"Jane Doe","start":"2015-07-16T14:00:00","end":"2015-07-16T16:00:00"},
+						{"id":285,"title":"Weekend Hatha","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/weekend-hatha-class\/","address":"Room 102, Building A","className":"fc-class-23","trainer":"Jane Doe","start":"2015-07-23T14:00:00","end":"2015-07-23T16:00:00"},
+						{"id":285,"title":"Weekend Hatha","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/weekend-hatha-class\/","address":"Room 102, Building A","className":"fc-class-23","trainer":"Jane Doe","start":"2015-07-30T14:00:00","end":"2015-07-30T16:00:00"},
+						{"id":285,"title":"Weekend Hatha","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/weekend-hatha-class\/","address":"Room 102, Building A","className":"fc-class-23","trainer":"Jane Doe","start":"2015-06-06T14:00:00","end":"2015-06-06T16:00:00"},
+						{"id":291,"title":"Slim Body","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-for-weight-loss\/","address":"Room 101, Building A","className":"fc-class-23","trainer":"Clara Brown","start":"2015-07-06T17:00:00","end":"2015-07-06T19:00:00"},
+						{"id":291,"title":"Slim Body","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-for-weight-loss\/","address":"Room 101, Building A","className":"fc-class-23","trainer":"Clara Brown","start":"2015-07-13T17:00:00","end":"2015-07-13T19:00:00"},
+						{"id":291,"title":"Slim Body","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-for-weight-loss\/","address":"Room 101, Building A","className":"fc-class-23","trainer":"Clara Brown","start":"2015-07-20T17:00:00","end":"2015-07-20T19:00:00"},
+						{"id":291,"title":"Slim Body","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-for-weight-loss\/","address":"Room 101, Building A","className":"fc-class-23","trainer":"Clara Brown","start":"2015-07-27T17:00:00","end":"2015-07-27T19:00:00"},
+						{"id":291,"title":"Slim Body","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-for-weight-loss\/","address":"Room 101, Building A","className":"fc-class-23","trainer":"Clara Brown","start":"2015-07-08T17:00:00","end":"2015-07-08T19:00:00"},
+						{"id":291,"title":"Slim Body","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-for-weight-loss\/","address":"Room 101, Building A","className":"fc-class-23","trainer":"Clara Brown","start":"2015-07-15T17:00:00","end":"2015-07-15T19:00:00"},
+						{"id":291,"title":"Slim Body","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-for-weight-loss\/","address":"Room 101, Building A","className":"fc-class-23","trainer":"Clara Brown","start":"2015-07-22T17:00:00","end":"2015-07-22T19:00:00"},
+						{"id":291,"title":"Slim Body","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-for-weight-loss\/","address":"Room 101, Building A","className":"fc-class-23","trainer":"Clara Brown","start":"2015-07-29T17:00:00","end":"2015-07-29T19:00:00"},
+						{"id":284,"title":"Yoga Dance","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-dance-for-weight-loss\/","address":"Room 203, Building A","className":"fc-class-26","trainer":"Helen Kim","start":"2015-07-11T14:00:00","end":"2015-07-11T16:00:00"},
+						{"id":284,"title":"Yoga Dance","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-dance-for-weight-loss\/","address":"Room 203, Building A","className":"fc-class-26","trainer":"Helen Kim","start":"2015-07-18T14:00:00","end":"2015-07-18T16:00:00"},
+						{"id":284,"title":"Yoga Dance","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-dance-for-weight-loss\/","address":"Room 203, Building A","className":"fc-class-26","trainer":"Helen Kim","start":"2015-07-25T14:00:00","end":"2015-07-25T16:00:00"},
+						{"id":284,"title":"Yoga Dance","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-dance-for-weight-loss\/","address":"Room 203, Building A","className":"fc-class-26","trainer":"Helen Kim","start":"2015-06-01T14:00:00","end":"2015-06-01T16:00:00"},
+						{"id":284,"title":"Yoga Dance","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-dance-for-weight-loss\/","address":"Room 203, Building A","className":"fc-class-26","trainer":"Helen Kim","start":"2015-07-14T14:00:00","end":"2015-07-14T16:00:00"},
+						{"id":284,"title":"Yoga Dance","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-dance-for-weight-loss\/","address":"Room 203, Building A","className":"fc-class-26","trainer":"Helen Kim","start":"2015-07-21T14:00:00","end":"2015-07-21T16:00:00"},
+						{"id":284,"title":"Yoga Dance","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-dance-for-weight-loss\/","address":"Room 203, Building A","className":"fc-class-26","trainer":"Helen Kim","start":"2015-07-28T14:00:00","end":"2015-07-28T16:00:00"},
+						{"id":284,"title":"Yoga Dance","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-dance-for-weight-loss\/","address":"Room 203, Building A","className":"fc-class-26","trainer":"Helen Kim","start":"2015-06-04T14:00:00","end":"2015-06-04T16:00:00"},
+						{"id":281,"title":"Advance Kudalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/advance-kudalini-with-chloe\/","address":"Room 201, Building A","className":"fc-class-25","trainer":"Ellen Fanning","start":"2015-07-04T19:00:00","end":"2015-07-04T21:00:00"},
+						{"id":281,"title":"Advance Kudalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/advance-kudalini-with-chloe\/","address":"Room 201, Building A","className":"fc-class-25","trainer":"Ellen Fanning","start":"2015-07-11T19:00:00","end":"2015-07-11T21:00:00"},
+						{"id":281,"title":"Advance Kudalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/advance-kudalini-with-chloe\/","address":"Room 201, Building A","className":"fc-class-25","trainer":"Ellen Fanning","start":"2015-07-18T19:00:00","end":"2015-07-18T21:00:00"},
+						{"id":281,"title":"Advance Kudalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/advance-kudalini-with-chloe\/","address":"Room 201, Building A","className":"fc-class-25","trainer":"Ellen Fanning","start":"2015-07-25T19:00:00","end":"2015-07-25T21:00:00"},
+						{"id":281,"title":"Advance Kudalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/advance-kudalini-with-chloe\/","address":"Room 201, Building A","className":"fc-class-25","trainer":"Ellen Fanning","start":"2015-07-01T19:00:00","end":"2015-07-01T21:00:00"},
+						{"id":281,"title":"Advance Kudalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/advance-kudalini-with-chloe\/","address":"Room 201, Building A","className":"fc-class-25","trainer":"Ellen Fanning","start":"2015-07-08T19:00:00","end":"2015-07-08T21:00:00"},
+						{"id":281,"title":"Advance Kudalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/advance-kudalini-with-chloe\/","address":"Room 201, Building A","className":"fc-class-25","trainer":"Ellen Fanning","start":"2015-07-15T19:00:00","end":"2015-07-15T21:00:00"},
+						{"id":281,"title":"Advance Kudalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/advance-kudalini-with-chloe\/","address":"Room 201, Building A","className":"fc-class-25","trainer":"Ellen Fanning","start":"2015-07-22T19:00:00","end":"2015-07-22T21:00:00"},
+						{"id":280,"title":"Morning Flow","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/morning-flow\/","address":"Room 102, Building A","className":"fc-class-22","trainer":"Daisy Lou","start":"2015-07-03T05:00:00","end":"2015-07-03T07:00:00"},
+						{"id":280,"title":"Morning Flow","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/morning-flow\/","address":"Room 102, Building A","className":"fc-class-22","trainer":"Daisy Lou","start":"2015-07-10T05:00:00","end":"2015-07-10T07:00:00"},
+						{"id":280,"title":"Morning Flow","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/morning-flow\/","address":"Room 102, Building A","className":"fc-class-22","trainer":"Daisy Lou","start":"2015-07-17T05:00:00","end":"2015-07-17T07:00:00"},
+						{"id":280,"title":"Morning Flow","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/morning-flow\/","address":"Room 102, Building A","className":"fc-class-22","trainer":"Daisy Lou","start":"2015-07-24T05:00:00","end":"2015-07-24T07:00:00"},
+						{"id":280,"title":"Morning Flow","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/morning-flow\/","address":"Room 102, Building A","className":"fc-class-22","trainer":"Daisy Lou","start":"2015-04-30T05:00:00","end":"2015-04-30T07:00:00"},
+						{"id":280,"title":"Morning Flow","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/morning-flow\/","address":"Room 102, Building A","className":"fc-class-22","trainer":"Daisy Lou","start":"2015-07-07T05:00:00","end":"2015-07-07T07:00:00"},
+						{"id":280,"title":"Morning Flow","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/morning-flow\/","address":"Room 102, Building A","className":"fc-class-22","trainer":"Daisy Lou","start":"2015-07-14T05:00:00","end":"2015-07-14T07:00:00"},
+						{"id":280,"title":"Morning Flow","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/morning-flow\/","address":"Room 102, Building A","className":"fc-class-22","trainer":"Daisy Lou","start":"2015-07-21T05:00:00","end":"2015-07-21T07:00:00"},
+						{"id":279,"title":"Hatha Basic","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/hatha-basic\/","address":"Room 203, Building A","className":"fc-class-23","trainer":"Samatha Dave","start":"2015-04-27T18:00:00","end":"2015-04-27T20:00:00"},
+						{"id":279,"title":"Hatha Basic","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/hatha-basic\/","address":"Room 203, Building A","className":"fc-class-23","trainer":"Samatha Dave","start":"2015-07-04T18:00:00","end":"2015-07-04T20:00:00"},
+						{"id":279,"title":"Hatha Basic","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/hatha-basic\/","address":"Room 203, Building A","className":"fc-class-23","trainer":"Samatha Dave","start":"2015-07-11T18:00:00","end":"2015-07-11T20:00:00"},
+						{"id":279,"title":"Hatha Basic","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/hatha-basic\/","address":"Room 203, Building A","className":"fc-class-23","trainer":"Samatha Dave","start":"2015-07-18T18:00:00","end":"2015-07-18T20:00:00"},
+						{"id":279,"title":"Hatha Basic","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/hatha-basic\/","address":"Room 203, Building A","className":"fc-class-23","trainer":"Samatha Dave","start":"2015-04-29T18:00:00","end":"2015-04-29T20:00:00"},
+						{"id":279,"title":"Hatha Basic","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/hatha-basic\/","address":"Room 203, Building A","className":"fc-class-23","trainer":"Samatha Dave","start":"2015-07-06T18:00:00","end":"2015-07-06T20:00:00"},
+						{"id":279,"title":"Hatha Basic","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/hatha-basic\/","address":"Room 203, Building A","className":"fc-class-23","trainer":"Samatha Dave","start":"2015-07-13T18:00:00","end":"2015-07-13T20:00:00"},
+						{"id":279,"title":"Hatha Basic","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/hatha-basic\/","address":"Room 203, Building A","className":"fc-class-23","trainer":"Samatha Dave","start":"2015-07-20T18:00:00","end":"2015-07-20T20:00:00"},
+						{"id":123,"title":"Yoga Dance","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-dance-with-jen\/","address":"Room 101, Building A","className":"fc-class-26","trainer":"Clara Brown","start":"2015-07-03T17:00:00","end":"2015-07-03T19:00:00"},
+						{"id":123,"title":"Yoga Dance","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-dance-with-jen\/","address":"Room 101, Building A","className":"fc-class-26","trainer":"Clara Brown","start":"2015-07-10T17:00:00","end":"2015-07-10T19:00:00"},
+						{"id":123,"title":"Yoga Dance","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-dance-with-jen\/","address":"Room 101, Building A","className":"fc-class-26","trainer":"Clara Brown","start":"2015-07-17T17:00:00","end":"2015-07-17T19:00:00"},
+						{"id":123,"title":"Yoga Dance","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-dance-with-jen\/","address":"Room 101, Building A","className":"fc-class-26","trainer":"Clara Brown","start":"2015-07-24T17:00:00","end":"2015-07-24T19:00:00"},
+						{"id":123,"title":"Yoga Dance","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-dance-with-jen\/","address":"Room 101, Building A","className":"fc-class-26","trainer":"Clara Brown","start":"2015-07-09T17:00:00","end":"2015-07-09T19:00:00"},
+						{"id":123,"title":"Yoga Dance","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-dance-with-jen\/","address":"Room 101, Building A","className":"fc-class-26","trainer":"Clara Brown","start":"2015-07-16T17:00:00","end":"2015-07-16T19:00:00"},
+						{"id":123,"title":"Yoga Dance","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-dance-with-jen\/","address":"Room 101, Building A","className":"fc-class-26","trainer":"Clara Brown","start":"2015-07-23T17:00:00","end":"2015-07-23T19:00:00"},
+						{"id":123,"title":"Yoga Dance","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-dance-with-jen\/","address":"Room 101, Building A","className":"fc-class-26","trainer":"Clara Brown","start":"2015-07-30T17:00:00","end":"2015-07-30T19:00:00"},
+						{"id":120,"title":"Kundalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/kundalini-with-jimmy\/","address":"Room 201, Building A","className":"fc-class-25","trainer":"Jenifer Mueller","start":"2015-04-28T13:00:00","end":"2015-04-28T15:00:00"},
+						{"id":120,"title":"Kundalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/kundalini-with-jimmy\/","address":"Room 201, Building A","className":"fc-class-25","trainer":"Jenifer Mueller","start":"2015-07-05T13:00:00","end":"2015-07-05T15:00:00"},
+						{"id":120,"title":"Kundalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/kundalini-with-jimmy\/","address":"Room 201, Building A","className":"fc-class-25","trainer":"Jenifer Mueller","start":"2015-07-12T13:00:00","end":"2015-07-12T15:00:00"},
+						{"id":120,"title":"Kundalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/kundalini-with-jimmy\/","address":"Room 201, Building A","className":"fc-class-25","trainer":"Jenifer Mueller","start":"2015-07-19T13:00:00","end":"2015-07-19T15:00:00"},
+						{"id":120,"title":"Kundalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/kundalini-with-jimmy\/","address":"Room 201, Building A","className":"fc-class-25","trainer":"Jenifer Mueller","start":"2015-04-30T13:00:00","end":"2015-04-30T15:00:00"},
+						{"id":120,"title":"Kundalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/kundalini-with-jimmy\/","address":"Room 201, Building A","className":"fc-class-25","trainer":"Jenifer Mueller","start":"2015-07-07T13:00:00","end":"2015-07-07T15:00:00"},
+						{"id":120,"title":"Kundalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/kundalini-with-jimmy\/","address":"Room 201, Building A","className":"fc-class-25","trainer":"Jenifer Mueller","start":"2015-07-14T13:00:00","end":"2015-07-14T15:00:00"},
+						{"id":120,"title":"Kundalini","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/kundalini-with-jimmy\/","address":"Room 201, Building A","className":"fc-class-25","trainer":"Jenifer Mueller","start":"2015-07-21T13:00:00","end":"2015-07-21T15:00:00"},
+						{"id":119,"title":"Hatha Intermediate","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/hatha-intermediate\/","address":"Room 202, Building A","className":"fc-class-23","trainer":"Sara Corner","start":"2015-07-04T06:00:00","end":"2015-07-04T08:00:00"},
+						{"id":119,"title":"Hatha Intermediate","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/hatha-intermediate\/","address":"Room 202, Building A","className":"fc-class-23","trainer":"Sara Corner","start":"2015-07-11T06:00:00","end":"2015-07-11T08:00:00"},
+						{"id":119,"title":"Hatha Intermediate","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/hatha-intermediate\/","address":"Room 202, Building A","className":"fc-class-23","trainer":"Sara Corner","start":"2015-07-18T06:00:00","end":"2015-07-18T08:00:00"},
+						{"id":119,"title":"Hatha Intermediate","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/hatha-intermediate\/","address":"Room 202, Building A","className":"fc-class-23","trainer":"Sara Corner","start":"2015-07-25T06:00:00","end":"2015-07-25T08:00:00"},
+						{"id":119,"title":"Hatha Intermediate","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/hatha-intermediate\/","address":"Room 202, Building A","className":"fc-class-23","trainer":"Sara Corner","start":"2015-07-06T06:00:00","end":"2015-07-06T08:00:00"},
+						{"id":119,"title":"Hatha Intermediate","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/hatha-intermediate\/","address":"Room 202, Building A","className":"fc-class-23","trainer":"Sara Corner","start":"2015-07-13T06:00:00","end":"2015-07-13T08:00:00"},
+						{"id":119,"title":"Hatha Intermediate","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/hatha-intermediate\/","address":"Room 202, Building A","className":"fc-class-23","trainer":"Sara Corner","start":"2015-07-20T06:00:00","end":"2015-07-20T08:00:00"},
+						{"id":119,"title":"Hatha Intermediate","color":"#fbe1c7","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/hatha-intermediate\/","address":"Room 202, Building A","className":"fc-class-23","trainer":"Sara Corner","start":"2015-07-27T06:00:00","end":"2015-07-27T08:00:00"},
+						{"id":118,"title":"Yoga Basic","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-basic-with-sara\/","address":"Room 202, Building A","className":"fc-class-22","trainer":"Daisy Lou","start":"2015-07-19T19:00:00","end":"2015-07-19T21:00:00"},
+						{"id":118,"title":"Yoga Basic","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-basic-with-sara\/","address":"Room 202, Building A","className":"fc-class-22","trainer":"Daisy Lou","start":"2015-07-26T19:00:00","end":"2015-07-26T21:00:00"},
+						{"id":118,"title":"Yoga Basic","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-basic-with-sara\/","address":"Room 202, Building A","className":"fc-class-22","trainer":"Daisy Lou","start":"2015-06-02T19:00:00","end":"2015-06-02T21:00:00"},
+						{"id":118,"title":"Yoga Basic","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-basic-with-sara\/","address":"Room 202, Building A","className":"fc-class-22","trainer":"Daisy Lou","start":"2015-06-09T19:00:00","end":"2015-06-09T21:00:00"},
+						{"id":118,"title":"Yoga Basic","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-basic-with-sara\/","address":"Room 202, Building A","className":"fc-class-22","trainer":"Daisy Lou","start":"2015-07-15T19:00:00","end":"2015-07-15T21:00:00"},
+						{"id":118,"title":"Yoga Basic","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-basic-with-sara\/","address":"Room 202, Building A","className":"fc-class-22","trainer":"Daisy Lou","start":"2015-07-22T19:00:00","end":"2015-07-22T21:00:00"},
+						{"id":118,"title":"Yoga Basic","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-basic-with-sara\/","address":"Room 202, Building A","className":"fc-class-22","trainer":"Daisy Lou","start":"2015-07-29T19:00:00","end":"2015-07-29T21:00:00"},
+						{"id":118,"title":"Yoga Basic","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/yoga-basic-with-sara\/","address":"Room 202, Building A","className":"fc-class-22","trainer":"Daisy Lou","start":"2015-06-05T19:00:00","end":"2015-06-05T21:00:00"},
+						{"id":116,"title":"Flow Class","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/flow-class\/","address":"Room 202, Building A","className":"fc-class-22","trainer":"Jimmy Cho","start":"2015-07-04T05:00:00","end":"2015-07-04T07:00:00"},
+						{"id":116,"title":"Flow Class","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/flow-class\/","address":"Room 202, Building A","className":"fc-class-22","trainer":"Jimmy Cho","start":"2015-07-11T05:00:00","end":"2015-07-11T07:00:00"},
+						{"id":116,"title":"Flow Class","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/flow-class\/","address":"Room 202, Building A","className":"fc-class-22","trainer":"Jimmy Cho","start":"2015-07-18T05:00:00","end":"2015-07-18T07:00:00"},
+						{"id":116,"title":"Flow Class","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/flow-class\/","address":"Room 202, Building A","className":"fc-class-22","trainer":"Jimmy Cho","start":"2015-07-25T05:00:00","end":"2015-07-25T07:00:00"},
+						{"id":116,"title":"Flow Class","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/flow-class\/","address":"Room 202, Building A","className":"fc-class-22","trainer":"Jimmy Cho","start":"2015-07-01T05:00:00","end":"2015-07-01T07:00:00"},
+						{"id":116,"title":"Flow Class","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/flow-class\/","address":"Room 202, Building A","className":"fc-class-22","trainer":"Jimmy Cho","start":"2015-07-08T05:00:00","end":"2015-07-08T07:00:00"},
+						{"id":116,"title":"Flow Class","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/flow-class\/","address":"Room 202, Building A","className":"fc-class-22","trainer":"Jimmy Cho","start":"2015-07-15T05:00:00","end":"2015-07-15T07:00:00"},
+						{"id":116,"title":"Flow Class","color":"#fdffc4","url":"http:\/\/wpthemes.noothemes.com\/noopress\/yogi\/classes\/flow-class\/","address":"Room 202, Building A","className":"fc-class-22","trainer":"Jimmy Cho","start":"2015-07-22T05:00:00","end":"2015-07-22T07:00:00"}
+					];
+				$("#noo-class-schedule").fullCalendar({
+					header: {
+						left: 'prev',
+						center: 'title',
+						right: 'next'
+					},
+					axisFormat: 'HH:mm',
+					minTime: '04:00:00',
+					maxTime: '17:00:00',
+					defaultView: 'agendaWeek',
+					firstDay: 1,
+					slotDuration: '01:00:00',
+					columnFormat: 'dddd',
+					allDaySlot: false,
+					defaultDate: '2015-07-05',
+					editable: false,
+					lang:'en_US',
+					eventLimit: true, // allow "more" link when too many events
+					events: source
+				});
+
+				$('.class-schedule-filter li a').click(function() {
+				  	$('.class-schedule-filter li a').removeAttr("class");
+				  	$(this).addClass("active");
+				  	var filterClass = $(this).attr("data-filter");
+				  	if($(this).attr("data-filter") == "*") {
+				  		$('.fc-content-skeleton table td a.fc-time-grid-event').show();
+				  	} else {
+				  		$('.fc-content-skeleton table td').each(function() {
+					  		var itemClass = $(this).find('a.fc-time-grid-event').attr("class");
+					  		if(itemClass != null) {
+					  			if(itemClass.indexOf(filterClass) == -1){
+							    	$(this).find('a.fc-time-grid-event').hide();
+								} else {
+									$(this).find('a.fc-time-grid-event').show();
+								}
+					  		}
+						});
+				  	}
+
+				  	return false;
+				});
+
+				$('#noo-class-schedule button').click(function() {
+					var filterClass = "*";
+					$('.class-schedule-filter li').each(function() {
+				  		var className = $(this).children('a').attr('class');
+				  		if(className == "active" && $(this).children('a').attr('data-filter') != "*") {
+				  			filterClass = $(this).children('a').attr('data-filter');
+				  		}
+					});
+
+					if(filterClass != "*") {
+						$('.fc-content-skeleton table td').each(function() {
+					  		var itemClass = $(this).find('a.fc-time-grid-event').attr("class");
+					  		if(itemClass != null) {
+					  			if(itemClass.indexOf(filterClass) == -1){
+							    	$(this).find('a.fc-time-grid-event').hide();
+								} else {
+									$(this).find('a.fc-time-grid-event').show();
+								}
+					  		}
+						});
+					}
+				});
+			});
+		</script>
+	</body>
+</html>
